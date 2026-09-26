@@ -1,0 +1,41 @@
+# 唤醒词配置
+WAKE_WORD_OPTIONS:
+    USE_WAKE_WORD: false                                                # 是否启用唤醒词
+
+# 本地服务配置
+LOCAL_SERVICE:
+    URL: https://api.siliconflow.cn/v1                                  # 服务地址
+    API_KEY: YOUR_SILICONFLOW_API_KEY        # API_KEY
+    LLM: Qwen/Qwen3-8B                                                  # 对话模型       
+    VL: Pro/Qwen/Qwen2.5-VL-7B-Instruct                                 # 视觉多模态模型
+    SPEECH_REC: FunAudioLLM/SenseVoiceSmall                             # 语音识别模型
+    VOICE: zh-CN-XiaoxiaoNeural                                         # edge-tts音色
+
+# 硅基流动服务配置
+SILICONFLOW:
+    URL: https://api.siliconflow.cn/v1                                  # 服务地址
+    API_KEY: YOUR_SILICONFLOW_API_KEY        # API_KEY
+    LLM: Qwen/Qwen3-8B                                                  # 对话模型
+    VL: Pro/Qwen/Qwen2.5-VL-7B-Instruct                                 # 视觉多模态模型
+    SPEECH_REC: FunAudioLLM/SenseVoiceSmall                             # 语音识别模型
+    SPEECH_SYN: FunAudioLLM/CosyVoice2-0.5B                             # 语音合成模型
+    VOICE: FunAudioLLM/CosyVoice2-0.5B:diana                            # 硅基流动音色
+
+# MQTT配置
+MQTT_SERVICE:
+    BROKER: 127.0.0.1                                                   # MQTT服务器地址
+    PORT: 1883                                                          # MQTT服务器端口
+    PUB_TOPIC: control                                                  # 发布主题
+    SUB_TOPIC: state                                                    # 订阅主题
+
+# 摄像头配置
+CAMERA:
+    camera_index: 0                                                     # 摄像头索引
+
+# 服务选择
+CHOICE:
+    SERVICE: LOCAL_SERVICE                                              # 当前使用的服务
+
+# 天气API配置
+WEATHER_API_KEY:
+    WEATHER_API_KEY: YOUR_SENIVERSE_API_KEY                                  # 天气API密钥

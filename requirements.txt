@@ -1,0 +1,29 @@
+# ===== GUI 与异步 =====
+PyQt5>=5.15
+qasync>=0.27
+
+# ===== 大模型服务（OpenAI 兼容接口，对接硅基流动 SiliconFlow）=====
+openai>=1.30
+
+# ===== 语音：录音 / VAD / 唤醒 / 识别 / 合成 / 播放 =====
+pyaudio>=0.2.14
+webrtcvad>=2.0.10
+vosk>=0.3.45
+funasr>=1.0.27
+torch>=2.0
+torchaudio>=2.0
+edge-tts>=6.1
+pypinyin>=0.50
+pydub>=0.25
+pygame>=2.5
+
+# ===== 视觉多模态 =====
+opencv-python>=4.8
+
+# ===== 配置 / 网络 / 工具 =====
+ruamel.yaml>=0.18
+requests>=2.31
+pydantic>=2.0
+colorlog>=6.7
+paho-mqtt>=2.0
+numpy>=1.24

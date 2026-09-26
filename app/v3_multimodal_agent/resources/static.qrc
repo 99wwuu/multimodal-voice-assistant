@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="fontFile">
+    <file alias="HarmonyOS_Sans_SC_Medium.ttf">fontFile/HarmonyOS_Sans_SC_Medium.ttf</file>
+    <file alias="HarmonyOS_Sans_SC_Regular.ttf">fontFile/HarmonyOS_Sans_SC_Regular.ttf</file>
+  </qresource>
+
+  <qresource prefix="/icons">
+    <file alias="icon.png">images/icon.png</file>
+    <file alias="error.png">images/error.png</file>
+    <file alias="warning.png">images/warning.png</file>
+    <file alias="loading.png">images/loading.png</file>
+  </qresource>
+</RCC>
